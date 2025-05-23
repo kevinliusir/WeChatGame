@@ -1,0 +1,158 @@
+# Spirit Bloom Garden - Game Concept Document
+
+## 1. Game Title and Core Idea
+
+**Spirit Bloom Garden:** Cultivate a magical garden by merging elemental spirit flowers. These flowers generate energy, allowing players to expand their garden, discover rarer and more powerful blooms, and fend off mischievous sprites that occasionally try to disrupt the garden's harmony.
+
+## 2. Theme and Art Style
+
+*   **Theme:** Magical garden, nature spirits, elemental powers, serene cultivation.
+*   **Art Style:** "Fresh & Cute" with "Traditional Chinese Elegance."
+    *   **Visuals:** Vibrant colors, soft lighting, and a clean, inviting aesthetic.
+    *   **Character Design:** Adorable and expressive flower spirit designs, each with unique visual characteristics reflecting their element and rarity. Sprites will be mischievous but not overly menacing.
+    *   **UI:** Clean, intuitive interface with subtle traditional Chinese motifs and calligraphy-inspired fonts.
+    *   **Animations:** Smooth, whimsical animations for merging, energy collection, spirit interactions, and UI transitions.
+
+## 3. Detailed Core Gameplay Loop
+
+1.  **Planting/Obtaining Seeds:**
+    *   Players start with a few basic elemental seeds (e.g., Water, Fire, Earth).
+    *   New seeds are obtained primarily through:
+        *   Energy expenditure (buying from a basic "Seed Shop").
+        *   Completing Daily Tasks.
+        *   As rewards from Bloom Events.
+        *   Rarely, dropped by dispelled Sprites.
+2.  **Merging:**
+    *   Players drag and drop identical flower spirits onto each other to merge them into a higher-tier, more powerful version of the same element.
+    *   Merging is the primary way to discover new flower types and increase energy generation.
+    *   Cross-elemental merging is not possible initially but could be a feature unlocked through "Elemental Synergies."
+3.  **Energy Generation:**
+    *   Each flower spirit on the board passively generates "Chi" (in-game energy currency) over time.
+    *   Higher-tier flowers generate Chi at a significantly faster rate.
+    *   Players tap on flowers or a central "Chi Orb" to collect accumulated energy.
+4.  **Expansion & Upgrades:**
+    *   **Garden Expansion:** Players spend Chi to unlock new plots of land within their garden, allowing for more flowers to be planted and managed.
+    *   **Flower Upgrades (Passive):** Certain global upgrades can be purchased with Chi, such as:
+        *   "Faster Sprout Times": Reduces time for new seeds to sprout.
+        *   "Increased Chi Storage": Allows more Chi to accumulate before collection is needed.
+        *   "Elemental Affinity Boosts": Slightly increases energy generation for flowers of a specific element.
+5.  **Sprite Encounters:**
+    *   Occasionally, "Mischievous Sprites" will appear in the garden.
+    *   Sprites might:
+        *   Temporarily "wilt" a flower, halting its energy production.
+        *   Steal a small amount of uncollected Chi.
+        *   Block a garden plot, preventing planting or merging.
+    *   Players can dispel sprites by tapping on them multiple times or by using a specific item/ability (potentially unlocked later or via rewarded ad). Dispelling sprites may sometimes yield small rewards.
+
+## 4. Innovation Points
+
+*   **Elemental Synergies:**
+    *   Beyond basic merging, placing different high-tier elemental flowers near each other can unlock temporary "Synergy Auras."
+    *   **Example:** A high-tier Fire Flower next to a high-tier Wind Flower might create a "Warm Breeze" aura, slightly boosting the energy generation of all flowers within its radius for a limited time.
+    *   Discovering and optimizing these synergies adds a layer of strategic depth to garden layout. Specific combinations could be hinted at in the Bloom Book or through special tasks.
+*   **Bloom Events:**
+    *   Timed, recurring in-game events (e.g., "Lunar Blossom Festival," "Solar Flare Bloom").
+    *   During these events, specific elemental flowers might have boosted energy generation, or rare event-specific seeds might become temporarily available.
+    *   Players might need to merge towards a specific high-tier event flower to earn unique rewards (e.g., rare decorations, a unique high-tier spirit).
+    *   These events encourage active play and provide focused goals.
+
+## 5. Progression and Retention Mechanics
+
+*   **Flower Collection/Bloom Book:**
+    *   A discoverable catalog of all flower spirits. Each time a new flower type or tier is merged, it's added to the Bloom Book.
+    *   Entries might include lore, energy generation stats, and hints about elemental synergies.
+    *   Completing elemental families or tiers in the Bloom Book could yield one-time rewards (Chi, rare seeds).
+*   **Garden Ranks:**
+    *   Players earn XP by merging flowers, discovering new blooms, dispelling sprites, and completing tasks.
+    *   Accumulating XP increases their "Garden Rank."
+    *   Each rank-up can unlock:
+        *   New garden plots.
+        *   New elemental seed types in the shop.
+        *   New features (e.g., higher offline generation caps, access to new upgrade types).
+        *   Small Chi bonuses.
+*   **Daily Tasks:**
+    *   A set of simple tasks that refresh daily (e.g., "Merge 5 Water Flowers," "Collect 1000 Chi," "Dispel 2 Sprites").
+    *   Completing tasks rewards players with Chi, basic seeds, or occasionally, rarer resources.
+*   **Offline Generation:**
+    *   Flowers continue to generate Chi for a limited time while the player is offline.
+    *   The duration and amount of offline generation can be upgraded. This encourages players to return regularly to collect their accumulated energy.
+*   **Light Social Features:**
+    *   **Friend Leaderboard:** Players can connect with friends (e.g., via Facebook or a simple friend code system) and see their Garden Rank or total Chi generated.
+    *   **Watering Friends' Gardens:** A daily interaction where players can visit a friend's garden and perform a simple "watering" action, providing a small, temporary boost to their friend's Chi generation (and possibly a tiny reward for the visitor).
+
+## 6. Level Design Approach
+
+Progression is primarily tied to Garden Ranks.
+*   **Early Ranks (1-5):** Focus on introducing core mechanics: planting, merging basic elements (Water, Fire), energy collection, initial garden expansion, and first sprite encounters. The goal is to make the loop satisfying and easy to grasp.
+*   **Mid Ranks (6-15):** Introduce new base elements (e.g., Earth, Wind), more complex merge chains, the concept of the Bloom Book, Daily Tasks, and potentially the first hints of Elemental Synergies. Sprites might become slightly more frequent or have varied effects.
+*   **Later Ranks (16+):** Unlock advanced features, more complex Elemental Synergies, higher offline generation upgrades, and challenging Bloom Events. The cost of expansion and upgrades will increase, encouraging strategic Chi management.
+*   **Difficulty Curve:** The curve will be gradual. New elements and mechanics are introduced one by one. The challenge comes from managing a larger garden, optimizing for synergies, and efficiently participating in events.
+*   **Replay Value:** Driven by the desire to complete the Bloom Book, achieve higher Garden Ranks, participate in rotating Bloom Events, and optimize garden layouts for maximum Chi generation and synergy effects.
+
+## 7. Art and Sound Direction
+
+*   **Visual Aesthetics:**
+    *   **Merge Effects:** Satisfying and visually distinct particle effects for merging, with increasing spectacle for higher-tier merges. Elemental themes should be present (e.g., water splashes, fire embers).
+    *   **UI Style:** As described in Section 2, clean, with traditional Chinese elegance. Buttons and icons should be easily understandable.
+    *   **Spirit Designs:** Each flower spirit will have a base form that evolves with each tier, becoming more intricate and expressive, clearly showing its element.
+*   **Sound Direction:**
+    *   **Background Music:** Serene, calming, and melodic, with traditional Chinese instrumental influences (e.g., Guzheng, Dizi flute). Music might subtly change based on time of day in-game or during Bloom Events.
+    *   **Key Sound Effects:**
+        *   **Merging:** A soft, magical "chime" or "whoosh" that grows in pitch/complexity with higher tiers.
+        *   **Collecting Chi:** Gentle, satisfying "pop" or "shimmer" sounds.
+        *   **Planting Seed:** A soft "plop" or "rustle."
+        *   **Sprite Appearance:** A mischievous giggle or subtle "poof."
+        *   **Dispelling Sprite:** A satisfying "disperse" or "cleanse" sound.
+        *   **UI Interactions:** Crisp, subtle clicks and swooshes.
+        *   **Rank Up:** A celebratory, uplifting musical flourish.
+
+## 8. Technical Considerations and Initial Content Scope
+
+*   **Suggested Engines:**
+    *   **Phaser:** Good for 2D web and mobile games, strong community.
+    *   **Cocos Creator:** Popular for 2D mobile games, good performance, JavaScript/TypeScript based.
+    *   **LayaAir:** Another option for performant 2D games, supports AS3/TS/JS.
+    *   *Decision based on team familiarity and specific performance needs for many animated spirits on screen.*
+*   **Essential Content for Launch (MVP):**
+    *   **Tutorial:** Interactive guide covering planting, merging, energy collection, expansion, and first sprite encounter.
+    *   **Initial Flower Types/Tiers:**
+        *   At least 3 base elemental types (e.g., Water, Fire, Earth).
+        *   Each element having 5-7 tiers of progression for merging.
+    *   **Garden Size:** Initial playable area with unlockable plots for roughly 20-30 flowers, expandable to 50-60+ through progression.
+    *   **UI Screens:**
+        *   Main Garden Screen
+        *   Seed Shop
+        *   Bloom Book (basic functionality)
+        *   Settings
+        *   Daily Tasks interface
+        *   Offline Earnings pop-up
+    *   **Garden Ranks:** Approximately 15-20 Garden Ranks for initial progression, each unlocking meaningful content or upgrades.
+    *   **Sprite Types:** 1-2 basic sprite types with simple disruptive behaviors.
+
+## 9. Monetization Strategy (Rewarded Ads Focused)
+
+The primary monetization will be through opt-in Rewarded Video Ads. The goal is to offer genuine value to players without forcing ad views, maintaining a positive player experience.
+
+*   **"Speed Up":**
+    *   Speed up a currently sprouting seed.
+    *   Temporarily double Chi generation for a short period (e.g., 5-10 minutes).
+*   **"Extra Seedling":**
+    *   Instantly receive a free basic seed (or a slightly higher chance for a better basic seed). Limited daily uses.
+*   **"Revive Faded Bloom":**
+    *   If a sprite "wilts" a flower, offer an option to instantly revive it by watching an ad.
+*   **"Dispel Sprite Instantly":**
+    *   Offer to instantly dispel a troublesome sprite by watching an ad, especially if it's a more disruptive type.
+*   **"Offline Chi Multiplier":**
+    *   Upon returning to the game, offer to double or triple the accumulated offline Chi by watching an ad.
+*   **Potential Future Monetization (Post-Launch, if successful):**
+    *   **Cosmetic Items:** Purely decorative items for the garden (e.g., special paths, animated lanterns, garden statues) that do not affect gameplay. Purchased with a premium currency or direct IAP.
+    *   **Event Passes:** For larger Bloom Events, a tiered pass system offering extra rewards for participants who purchase the pass.
+
+## 10. Social Sharing Integration
+
+Encourage organic sharing through satisfying game moments.
+
+*   **"Share New Bloom Discovery":** When a player merges a new, high-tier, or particularly beautiful flower for the first time, a "Share" button allows them to post an image of the bloom and their achievement to social media (e.g., Twitter, Facebook, Instagram).
+*   **"Share Garden Rank Up":** Upon achieving a significant Garden Rank, players can share a celebratory message and their new rank.
+*   **"Invite Friends":** A system to invite friends to play, potentially offering small rewards for both the inviter and invitee if the friend installs and reaches a certain milestone (e.g., Garden Rank 3). This could integrate with platform-specific sharing features.
+*   **Sharing Bloom Event Participation/Achievements:** Allow players to share their progress or unique rewards obtained during Bloom Events.
