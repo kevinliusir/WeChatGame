@@ -1,0 +1,58 @@
+/* pages/game/game.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20rpx;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.game-board {
+  display: flex; 
+  flex-direction: column;
+  gap: 5px; 
+  margin-top: 20px;
+  border: 1px solid #ccc; 
+}
+
+.board-row {
+  display: flex; 
+  flex-direction: row;
+  gap: 5px; 
+}
+
+.plot {
+  width: 120rpx; 
+  height: 120rpx;
+  background-color: #e8f5e9; 
+  border: 1px solid #c8e6c9; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box; 
+  position: relative; 
+}
+
+.plot image.flower-image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.plot text {
+  position: absolute;
+  bottom: 5rpx;
+  right: 5rpx;
+  font-size: 20rpx;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  padding: 2rpx 5rpx;
+  border-radius: 3rpx;
+}
+
+.energy-display {
+  margin-top: 30rpx;
+  font-size: 36rpx; 
+  color: #2e7d32; 
+  font-weight: bold;
+}
