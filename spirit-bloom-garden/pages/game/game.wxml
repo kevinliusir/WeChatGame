@@ -6,12 +6,15 @@
     <block wx:for="{{displayBoard}}" wx:for-item="rowItems" wx:for-index="rowIndex" wx:key="rowIndex">
       <view class="board-row">
         <block wx:for="{{rowItems}}" wx:for-item="cell" wx:for-index="colIndex" wx:key="colIndex">
-          <view class="plot" bindtap="onPlotTap" data-row="{{rowIndex}}" data-col="{{colIndex}}">
+          <view class="plot {{cell.isSelected ? 'selected' : ''}}" 
+                bindtap="onPlotTap" 
+                data-row="{{rowIndex}}" 
+                data-col="{{colIndex}}">
             <image wx:if="{{cell.flower && cell.flowerImagePath}}" 
                    src="{{cell.flowerImagePath}}" 
                    class="flower-image" 
                    mode="aspectFit"/>
-            <!-- <text wx:if="{{cell.flower}}">T{{cell.flower.tier}}</text> -->
+            <text wx:if="{{cell.flower}}" class="tier-text">T{{cell.flower.tier}}</text>
           </view>
         </block>
       </view>

@@ -26,28 +26,34 @@
   width: 120rpx; 
   height: 120rpx;
   background-color: #e8f5e9; 
-  border: 1px solid #c8e6c9; 
+  border: 2px solid #c8e6c9; /* Default border */
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box; 
   position: relative; 
+  transition: border-color 0.2s ease-in-out; /* Smooth transition for selection */
+}
+
+.plot.selected {
+  border-color: #4CAF50; /* Green border for selected items */
+  box-shadow: 0 0 10rpx #4CAF50; /* Optional: add a glow */
 }
 
 .plot image.flower-image {
-  width: 100rpx;
-  height: 100rpx;
+  width: 90rpx; /* Slightly smaller to fit border and tier text */
+  height: 90rpx;
 }
 
-.plot text {
+.tier-text { /* Renamed from .plot text for clarity */
   position: absolute;
   bottom: 5rpx;
   right: 5rpx;
   font-size: 20rpx;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.6);
   color: white;
-  padding: 2rpx 5rpx;
-  border-radius: 3rpx;
+  padding: 2rpx 6rpx;
+  border-radius: 5rpx;
 }
 
 .energy-display {
