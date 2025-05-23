@@ -10,11 +10,22 @@
                 bindtap="onPlotTap" 
                 data-row="{{rowIndex}}" 
                 data-col="{{colIndex}}">
+            
+            <!-- Flower Image -->
             <image wx:if="{{cell.flower && cell.flowerImagePath}}" 
                    src="{{cell.flowerImagePath}}" 
                    class="flower-image" 
                    mode="aspectFit"/>
             <text wx:if="{{cell.flower}}" class="tier-text">T{{cell.flower.tier}}</text>
+
+            <!-- Sprite Image - Renders on top of flower if both exist -->
+            <image wx:if="{{cell.sprite && cell.spriteImagePath}}"
+                   src="{{cell.spriteImagePath}}"
+                   class="sprite-image"
+                   mode="aspectFit"/>
+            <!-- Optional: Text for sprite health or type -->
+            <!-- <text wx:if="{{cell.sprite}}" class="sprite-info">H:{{cell.sprite.health}}</text> -->
+
           </view>
         </block>
       </view>
