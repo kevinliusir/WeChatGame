@@ -1,0 +1,46 @@
+**How to Play: Spirit Bloom Garden**
+
+Welcome, Gardener! Get ready to cultivate a magical garden full of wondrous Spirit Blooms. Merge flowers, gather energy, and protect your peaceful space from mischievous Shadow Sprites!
+
+**1. Your Magical Garden**
+
+*   **The Goal:** Your aim is to grow beautiful and powerful Spirit Flowers by merging them. Higher-tier flowers generate more Spirit Energy, allowing you to expand your garden's wonders (future feature!). For now, enjoy the process of discovery and keep your garden clear of sprites!
+*   **The Game Board:** Your garden is laid out in plots. This is where your Spirit Flowers will grow and where Shadow Sprites might appear.
+
+**2. Core Actions: Tending Your Garden**
+
+*   **Tapping a Plot:**
+    *   **Selecting a Flower:** If you tap a plot containing a Spirit Flower, you'll select it. Selected flowers are usually highlighted with a special border.
+    *   **Interacting with Sprites:** If you tap a plot where a Shadow Sprite is lurking, you'll damage the sprite! Keep tapping to dispel it.
+*   **Merging Flowers:** This is the heart of your garden's growth!
+    1.  **Select First Flower:** Tap on a flower to select it.
+    2.  **Select Second Flower:** Tap on another flower of the *same type and same tier*.
+    3.  **Magic!** If the flowers are compatible, they will merge into a single, more powerful flower of the next tier! The new flower will appear on the plot you tapped for the second flower.
+    *   *Example:* Tapping a Tier 1 Water Flower, then tapping another Tier 1 Water Flower, will create a Tier 2 Water Flower.
+    *   *No Match?* If you try to merge incompatible flowers (different types or tiers), the merge won't happen. Your first flower will usually remain selected, or your selection might reset.
+*   **Deselecting a Flower:** If you've selected a flower but want to choose a different one, simply tap the selected flower again, or tap an empty plot.
+
+**3. Understanding Your Spirit Flowers**
+
+*   **Elements & Tiers:** Your flowers have different elemental types (like Water, Fire, Earth) and come in different tiers (Tier 1, Tier 2, etc.). You'll see "T1", "T2" on your flowers.
+*   **Spirit Energy:** Each flower automatically generates Spirit Energy over time. This energy is collected automatically for now. You can see your total Spirit Energy at the top/bottom of the screen. Higher-tier flowers generate much more energy!
+
+**4. Dealing with Shadow Sprites**
+
+*   **Pesky Intruders:** From time to time, mischievous Shadow Sprites may appear in your garden! They will try to disrupt your flowers.
+*   **Dispelling Sprites:**
+    *   When you see a sprite, tap on it directly!
+    *   Each tap reduces the sprite's health.
+    *   Keep tapping until its health runs out, and it will be dispelled from your garden.
+    *   Sprites may prevent flowers on their plot from generating energy while they are active.
+
+**5. The Game Interface**
+
+*   **Game Board:** The main area with your flower plots.
+*   **Energy Display:** Shows your current total Spirit Energy.
+
+**Tips for a Blooming Garden:**
+
+*   Always try to merge flowers to discover new, higher-tier blooms.
+*   Keep an eye out for Shadow Sprites and dispel them quickly to protect your energy generation!
+*   Have fun experimenting and watching your magical garden grow!
