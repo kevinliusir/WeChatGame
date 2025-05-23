@@ -6,12 +6,26 @@
     <block wx:for="{{displayBoard}}" wx:for-item="rowItems" wx:for-index="rowIndex" wx:key="rowIndex">
       <view class="board-row">
         <block wx:for="{{rowItems}}" wx:for-item="cell" wx:for-index="colIndex" wx:key="colIndex">
-          <view class="plot" bindtap="onPlotTap" data-row="{{rowIndex}}" data-col="{{colIndex}}">
+          <view class="plot {{cell.isSelected ? 'selected' : ''}}" 
+                bindtap="onPlotTap" 
+                data-row="{{rowIndex}}" 
+                data-col="{{colIndex}}">
+            
+            <!-- Flower Image -->
             <image wx:if="{{cell.flower && cell.flowerImagePath}}" 
                    src="{{cell.flowerImagePath}}" 
                    class="flower-image" 
                    mode="aspectFit"/>
-            <!-- <text wx:if="{{cell.flower}}">T{{cell.flower.tier}}</text> -->
+            <text wx:if="{{cell.flower}}" class="tier-text">T{{cell.flower.tier}}</text>
+
+            <!-- Sprite Image - Renders on top of flower if both exist -->
+            <image wx:if="{{cell.sprite && cell.spriteImagePath}}"
+                   src="{{cell.spriteImagePath}}"
+                   class="sprite-image"
+                   mode="aspectFit"/>
+            <!-- Optional: Text for sprite health or type -->
+            <!-- <text wx:if="{{cell.sprite}}" class="sprite-info">H:{{cell.sprite.health}}</text> -->
+
           </view>
         </block>
       </view>

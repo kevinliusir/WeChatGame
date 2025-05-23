@@ -26,29 +26,61 @@
   width: 120rpx; 
   height: 120rpx;
   background-color: #e8f5e9; 
-  border: 1px solid #c8e6c9; 
+  border: 2px solid #c8e6c9; /* Default border */
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box; 
-  position: relative; 
+  position: relative; /* Important for layering flower and sprite */
+  transition: border-color 0.2s ease-in-out;
+}
+
+.plot.selected {
+  border-color: #4CAF50; 
+  box-shadow: 0 0 10rpx #4CAF50;
 }
 
 .plot image.flower-image {
-  width: 100rpx;
-  height: 100rpx;
+  width: 90rpx;
+  height: 90rpx;
+  position: absolute; /* Allows layering */
+  z-index: 1; /* Flower is below sprite */
 }
 
-.plot text {
+.plot image.sprite-image {
+  width: 100rpx; /* Sprites might be slightly larger or overlap differently */
+  height: 100rpx;
+  position: absolute; /* Allows layering */
+  z-index: 2; /* Sprite is above flower */
+  opacity: 0.85; /* Example: Make sprites slightly transparent */
+}
+
+.tier-text {
   position: absolute;
   bottom: 5rpx;
   right: 5rpx;
   font-size: 20rpx;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  padding: 2rpx 6rpx;
+  border-radius: 5rpx;
+  z-index: 3; /* Above images if needed, though usually text is part of image or separate info */
+}
+
+/* Example for sprite health text if needed */
+/*
+.sprite-info {
+  position: absolute;
+  top: 5rpx;
+  left: 5rpx;
+  font-size: 18rpx;
+  background-color: rgba(255,0,0,0.7);
   color: white;
   padding: 2rpx 5rpx;
   border-radius: 3rpx;
+  z-index: 3;
 }
+*/
 
 .energy-display {
   margin-top: 30rpx;
