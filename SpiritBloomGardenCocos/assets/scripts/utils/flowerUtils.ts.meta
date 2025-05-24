@@ -1,0 +1,12 @@
+{
+  "ver": "1.0.0",
+  "importer": "typescript",
+  "uuid": "f102e3d4-c5b6-4a79-8012-3456789abcde",
+  "displayName": "flowerUtils",
+  "isPlugin": false,
+  "compiled": true,
+  "optimizationSupport": true,
+  "asyncLoadAssets": false,
+  "autoReleaseAssets": false,
+  "subMetas": {}
+}

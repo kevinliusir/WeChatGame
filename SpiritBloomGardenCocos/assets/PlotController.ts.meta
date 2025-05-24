@@ -1,0 +1,12 @@
+{
+  "ver": "1.0.0",
+  "importer": "typescript",
+  "uuid": "b2c3d4e5-f6a7-4890-1234-56789abcde01",
+  "displayName": "PlotController",
+  "isPlugin": false,
+  "compiled": true,
+  "optimizationSupport": true,
+  "asyncLoadAssets": false,
+  "autoReleaseAssets": false,
+  "subMetas": {}
+}

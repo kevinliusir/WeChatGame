@@ -1,0 +1,329 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "Plot",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Plot",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 10
+      },
+      {
+        "__id__": 2
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "c3d4e5f6-a7b8-4901-2345-6789abcde012"
+      },
+      "fileId": "plotRootNode-abcdef",
+      "sync": false,
+      "asyncLoadAssets": false
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "SelectionHighlight",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": false,
+    "_components": [
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 7
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "c3d4e5f6-a7b8-4901-2345-6789abcde012"
+      },
+      "fileId": "highlightNode-123456",
+      "sync": false,
+      "asyncLoadAssets": false
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1.1,
+      "y": 1.1,
+      "z": 1
+    },
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "node": {
+      "__id__": 1
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 100,
+      "height": 100
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_spriteFrame": {
+      "__uuid__": "f1e2d3c4-b5a6-4789-9012-3456789abc00"
+    },
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_useGrayscale": false
+  },
+  {
+    "__type__": "PlotController",
+    "node": {
+      "__id__": 1
+    },
+    "selectionHighlight": {
+      "__id__": 7
+    },
+    "flowerSprite": {
+      "__id__": 12
+    },
+    "spriteImage": {
+      "__id__": 14
+    },
+    "tierLabel": {
+      "__id__": 16
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "node": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 100,
+      "height": 100
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 0,
+      "a": 150 
+    },
+    "_spriteFrame": {
+      "__uuid__": "f1e2d3c4-b5a6-4789-9012-3456789abc00"
+    },
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_useGrayscale": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "FlowerNode",
+    "_parent": { "__id__": 1 },
+    "_children": [],
+    "_active": true,
+    "_components": [ { "__id__": 11 }, { "__id__": 12 } ],
+    "_prefab": { "root": { "__id__": 1 }, "asset": { "__uuid__": "c3d4e5f6-a7b8-4901-2345-6789abcde012" }, "fileId": "flowerNode-abcdef" },
+    "_lpos": { "x": 0, "y": 10, "z": 0 }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "SpriteNode",
+    "_parent": { "__id__": 1 },
+    "_children": [],
+    "_active": true,
+    "_components": [ { "__id__": 13 }, { "__id__": 14 } ],
+    "_prefab": { "root": { "__id__": 1 }, "asset": { "__uuid__": "c3d4e5f6-a7b8-4901-2345-6789abcde012" }, "fileId": "spriteNode-abcdef" },
+    "_lpos": { "x": 0, "y": 20, "z": 0 }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "TierLabel",
+    "_parent": { "__id__": 1 },
+    "_children": [],
+    "_active": true,
+    "_components": [ { "__id__": 15 }, { "__id__": 16 }, { "__id__": 17 } ],
+    "_prefab": { "root": { "__id__": 1 }, "asset": { "__uuid__": "c3d4e5f6-a7b8-4901-2345-6789abcde012" }, "fileId": "tierLabel-abcdef" },
+    "_lpos": { "x": 45, "y": -45, "z": 0 }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "node": { "__id__": 8 },
+    "_contentSize": { "width": 80, "height": 80 },
+    "_anchorPoint": { "x": 0.5, "y": 0.5 }
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": { "__id__": 8 },
+    "_spriteFrame": null,
+    "_color": { "r": 255, "g": 255, "b": 255, "a": 255 }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "node": { "__id__": 9 },
+    "_contentSize": { "width": 70, "height": 70 },
+    "_anchorPoint": { "x": 0.5, "y": 0.5 }
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": { "__id__": 9 },
+    "_spriteFrame": null,
+    "_color": { "r": 255, "g": 255, "b": 255, "a": 255 }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "node": { "__id__": 10 },
+    "_contentSize": { "width": 40, "height": 25 },
+    "_anchorPoint": { "x": 1, "y": 0 }
+  },
+  {
+    "__type__": "cc.Label",
+    "node": { "__id__": 10 },
+    "_string": "T1",
+    "_actualFontSize": 20,
+    "_fontSize": 20,
+    "_lineHeight": 25,
+    "_enableWrapText": false,
+    "_color": { "r": 255, "g": 255, "b": 255, "a": 255 },
+    "_horizontalAlign": 1,
+    "_verticalAlign": 1,
+    "_cacheMode": 1
+  },
+  {
+    "__type__": "cc.LabelOutline",
+    "node": { "__id__": 10 },
+    "_color": { "r": 0, "g": 0, "b": 0, "a": 255 },
+    "_width": 2
+  }
+]

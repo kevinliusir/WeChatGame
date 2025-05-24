@@ -1,0 +1,32 @@
+{
+  "engine": "cocos-creator-js",
+  "version": "3.8.0",
+  "id": "UNIQUE_PROJECT_ID",
+  "name": "SpiritBloomGardenCocos",
+  "debug": true,
+  "startScene": "d4e5f6a7-b8c9-4012-3456-789abcde0123",
+  "assets": {
+    "scenes": []
+  },
+  "settings": {
+    "splash": {
+      "totalTime": 0,
+      "displayRatio": 1
+    }
+  },
+  " adaptación": [
+    "pc",
+    "mac",
+    "android",
+    "ios",
+    "web",
+    "wechatgame"
+  ],
+  "excludedPlatforms": [],
+  "general": {
+    "designResolution": {
+      "width": 750,
+      "height": 1334
+    }
+  }
+}

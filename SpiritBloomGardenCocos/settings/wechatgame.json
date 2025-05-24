@@ -1,0 +1,17 @@
+{
+  "platform": "wechatgame",
+  "appid": "wx1234567890123456",
+  "orientation": "portrait",
+  "REMOTE_SERVER_ROOT": "",
+  "subContext": "",
+  "assets": [],
+  "excludedAssets": [],
+  "deviceOrientation": "portrait",
+  "designResolution": {
+    "width": 750,
+    "height": 1334,
+    "policy": 4
+  },
+  "useSubpackages": false,
+  "startSceneAssetBundle": false
+}
