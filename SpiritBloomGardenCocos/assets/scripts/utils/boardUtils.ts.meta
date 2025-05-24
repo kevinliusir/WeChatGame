@@ -1,0 +1,12 @@
+{
+  "ver": "1.0.0",
+  "importer": "typescript",
+  "uuid": "b0a1b2c3-d4e5-4f6a-b7c8-d9e0f1a2b3c4",
+  "displayName": "boardUtils",
+  "isPlugin": false,
+  "compiled": true,
+  "optimizationSupport": true,
+  "asyncLoadAssets": false,
+  "autoReleaseAssets": false,
+  "subMetas": {}
+}

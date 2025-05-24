@@ -1,0 +1,12 @@
+{
+  "ver": "1.0.0",
+  "importer": "typescript",
+  "uuid": "s2p3r4i5-t6e7-4u8t-9i0l-s1a2b3c4d5e6",
+  "displayName": "spriteUtils",
+  "isPlugin": false,
+  "compiled": true,
+  "optimizationSupport": true,
+  "asyncLoadAssets": false,
+  "autoReleaseAssets": false,
+  "subMetas": {}
+}

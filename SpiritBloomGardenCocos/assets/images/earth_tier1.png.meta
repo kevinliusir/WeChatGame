@@ -1,0 +1,29 @@
+{
+  "ver": "1.0.0",
+  "importer": "texture",
+  "uuid": "0a000001-0000-4000-8000-000000000001",
+  "subMetas": {
+    "earth_tier1": {
+      "ver": "1.0.0",
+      "importer": "sprite-frame",
+      "uuid": "0a000001-sf01-4000-8000-000000000001",
+      "rawTextureUuid": "0a000001-0000-4000-8000-000000000001",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 100,
+      "height": 100,
+      "rawWidth": 100,
+      "rawHeight": 100,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

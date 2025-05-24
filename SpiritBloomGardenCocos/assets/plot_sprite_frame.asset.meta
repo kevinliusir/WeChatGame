@@ -1,0 +1,33 @@
+{
+  "ver": "1.0.0",
+  "importer": "sprite-frame",
+  "uuid": "f1e2d3c4-b5a6-4789-9012-3456789abc00",
+  "displayName": "plot_sprite_frame",
+  "assetUuid": "a1b2c3d4-e5f6-4789-9012-3456789abcde",
+  "asyncLoadAssets": false,
+  "autoReleaseAssets": false,
+  "subMetas": {
+    "plot_placeholder": {
+      "ver": "1.0.0",
+      "importer": "sprite-frame",
+      "uuid": "f1e2d3c4-b5a6-4789-9012-3456789abc00",
+      "rawTextureUuid": "a1b2c3d4-e5f6-4789-9012-3456789abcde",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 100,
+      "height": 100,
+      "rawWidth": 100,
+      "rawHeight": 100,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

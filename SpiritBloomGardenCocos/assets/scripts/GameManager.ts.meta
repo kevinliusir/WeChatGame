@@ -1,0 +1,12 @@
+{
+  "ver": "1.0.0",
+  "importer": "typescript",
+  "uuid": "g1a2m3e4-m5a6-4n7a-8g9e-r0s1c2r3i4p5",
+  "displayName": "GameManager",
+  "isPlugin": false,
+  "compiled": true,
+  "optimizationSupport": true,
+  "asyncLoadAssets": false,
+  "autoReleaseAssets": false,
+  "subMetas": {}
+}

@@ -1,0 +1,9 @@
+{
+  "ver": "1.0.0",
+  "importer": "scene",
+  "uuid": "d4e5f6a7-b8c9-4012-3456-789abcde0123",
+  "displayName": "GameScene",
+  "asyncLoadAssets": false,
+  "autoReleaseAssets": false,
+  "subMetas": {}
+}
